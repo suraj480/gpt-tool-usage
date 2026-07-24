@@ -1,4 +1,4 @@
-from llm_client import ask, embed
+from llm_client import ask
 from vector_math import cosine_similarity
 
 #short-memory - simple in-context scratchpad
