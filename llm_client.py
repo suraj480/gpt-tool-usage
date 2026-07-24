@@ -5,7 +5,9 @@ from config.settings import (
     AZURE_API_VERSION,
     CHAT_DEPLOYMENT,
 )
-
+print("Endpoint:", AZURE_ENDPOINT)
+print("Deployment:", CHAT_DEPLOYMENT)
+print("API Version:", AZURE_API_VERSION)
 # Create Azure OpenAI client
 chat_client = AzureOpenAI(
     azure_endpoint=AZURE_ENDPOINT,

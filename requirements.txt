@@ -4,3 +4,5 @@ tiktoken>=0.8.0
 pydantic>=2.9.2
 requests>=2.32.3
 httpx>=0.28.1
+langgraph
+langchain-core
